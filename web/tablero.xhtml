@@ -437,9 +437,9 @@
                                     <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
                                         <div class="bg-gradient-success border-radius-lg h-100">
                                             <img src="dashboard/dashboard_1/assets/img/shapes/waves-white.svg" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves"></img>
-                                                <div class="position-relative d-flex align-items-center justify-content-center h-100">
-                                                    <img class="w-100 position-relative z-index-2 pt-4" src="http://www.aif-arquitectura.com/wp-content/uploads/2014/12/estructuras-1.png" alt="rocket"></img>
-                                                </div>
+                                            <div class="position-relative d-flex align-items-center justify-content-center h-100">
+                                                <img class="w-100 position-relative z-index-2 pt-4" src="http://www.aif-arquitectura.com/wp-content/uploads/2014/12/estructuras-1.png" alt="rocket"></img>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -662,12 +662,13 @@
                             <h6 class="mb-0">Navbar Fixed</h6>
                         </div>
                         <div class="form-check form-switch ps-0">
-                            <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
+                            <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)"></input>
                         </div>
                     </div>
+                </hr>
             </div>
         </div>
-        </div>
+
         <!--   Core JS Files   -->
         <script src="dashboard/dashboard_1/assets/js/core/popper.min.js"></script>
         <script src="dashboard/dashboard_1/assets/js/core/bootstrap.min.js"></script>
@@ -844,17 +845,9 @@
                                     },
                                 });
         </script>
-        <script>
-            var win = navigator.platform.indexOf('Win') > -1;
-            if (win && document.querySelector('#sidenav-scrollbar')) {
-                var options = {
-                    damping: '0.5'
-                }
-                Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-            }
-        </script>
+
         <!-- github buttons -->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script  src="https://buttons.github.io/buttons.js"></script>
         <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
         <script src="dashboard/dashboard_1/assets/js/soft-ui-dashboard.min.js?v=1.0.6"></script>
     </h:body>
