@@ -2998,7 +2998,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-  border-color: ;
+ 
   outline: 0;
   box-shadow: none;
 }
@@ -3581,7 +3581,7 @@ textarea.form-control.is-invalid {
 .btn {
   --bs-btn-padding-x: 1.5rem;
   --bs-btn-padding-y: 0.75rem;
-  --bs-btn-font-family: ;
+ 
   --bs-btn-font-size: 0.75rem;
   --bs-btn-font-weight: 700;
   --bs-btn-line-height: 1.4;
@@ -4377,7 +4377,7 @@ fieldset:disabled .btn {
   --bs-dropdown-color: #dee2e6;
   --bs-dropdown-bg: #343a40;
   --bs-dropdown-border-color: transparent;
-  --bs-dropdown-box-shadow: ;
+  
   --bs-dropdown-link-color: #dee2e6;
   --bs-dropdown-link-hover-color: #fff;
   --bs-dropdown-divider-bg: transparent;
@@ -4507,7 +4507,7 @@ fieldset:disabled .btn {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+ 
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: #6c757d;
@@ -5141,9 +5141,7 @@ fieldset:disabled .btn {
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: #fff;
-  --bs-card-cap-color: ;
-  --bs-card-height: ;
-  --bs-card-color: ;
+
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
@@ -5590,9 +5588,7 @@ fieldset:disabled .btn {
   border-color: var(--bs-pagination-disabled-border-color);
 }
 
-.page-item:not(:first-child) .page-link {
-  margin-left: calc($pagination-border-width * -1);
-}
+
 
 .page-item:first-child .page-link {
   border-top-left-radius: var(--bs-pagination-border-radius);
@@ -6378,7 +6374,7 @@ fieldset:disabled .btn {
   --bs-modal-width: 500px;
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
-  --bs-modal-color: ;
+
   --bs-modal-bg: #fff;
   --bs-modal-border-color: rgba(0, 0, 0, 0.2);
   --bs-modal-border-width: 1px;
@@ -6392,7 +6388,7 @@ fieldset:disabled .btn {
   --bs-modal-header-border-width: 1px;
   --bs-modal-title-line-height: 1.5;
   --bs-modal-footer-gap: 0.5rem;
-  --bs-modal-footer-bg: ;
+ 
   --bs-modal-footer-border-color: #dee2e6;
   --bs-modal-footer-border-width: 1px;
   position: fixed;
@@ -7320,7 +7316,7 @@ fieldset:disabled .btn {
   --bs-offcanvas-height: 30vh;
   --bs-offcanvas-padding-x: 1rem;
   --bs-offcanvas-padding-y: 1rem;
-  --bs-offcanvas-color: ;
+
   --bs-offcanvas-bg: #fff;
   --bs-offcanvas-border-width: 1px;
   --bs-offcanvas-border-color: rgba(0, 0, 0, 0.2);
@@ -22453,7 +22449,7 @@ hr.horizontal.gray-light {
   }
 }
 
-@use "sass:math";
+
 
 .navbar-vertical .navbar-brand>img,
 .navbar-vertical .navbar-brand-img {
